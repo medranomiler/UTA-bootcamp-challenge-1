@@ -44,10 +44,16 @@ body {
 
 a.link:hover, a.link:active {
     color: #79f100;
+    font-size: 150%;
 }
 
 a.link-1:hover, a.link-1:active {
     color: black;
+    font-size: 150%;
+}
+
+a.link-1{
+    color:black;
 }
 
 a {
