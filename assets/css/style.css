@@ -18,10 +18,11 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    font-weight:bolder; 
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #79f100;
 }
 
 .header div {
@@ -39,6 +40,14 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+a.link:hover, a.link:active {
+    color: #79f100;
+}
+
+a.link-1:hover, a.link-1:active {
+    color: black;
 }
 
 a {
@@ -197,4 +206,7 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+.footer .span {
+    color:black;
 }
